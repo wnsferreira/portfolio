@@ -1,13 +1,13 @@
-package com.portfoliowellington.ecommerce;
+package com.portfolio_wnsferreira.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ECommerceApplication {
+public class EcommerceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ECommerceApplication.class, args);
+		SpringApplication.run(EcommerceApplication.class, args);
 	}
 
 }
