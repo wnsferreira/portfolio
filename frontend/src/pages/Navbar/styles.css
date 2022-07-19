@@ -1,0 +1,25 @@
+
+header{
+    background-color: #1e1e1e;
+    height: 60px;
+    align-items: center;
+}
+  
+  
+.navbar-content{
+    color: #FAF9F6;
+    font-size: 12px;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 15px;
+    height: 60px;
+
+}
+
+.navbar-login{
+   justify-items: right;
+   align-items: center;
+   margin: 0 15px 0 0 ;
+   font-size: 15px;
+}
