@@ -5,34 +5,49 @@ function Registration() {
     return (
 
         <div className="form-container">
-            <h2>Cadatrar produto</h2>
+            <div className='title-form'>
+                <h2>Cadatrar produto</h2>
+            </div>
             <form>
+                <div>
+                    <label htmlFor='name'>Nome</label>
+                </div>
+                <div>
+                    <input type="text" id="name" />
+                </div>
 
-                <label htmlFor='name'>Nome</label>
-                <input type="text" id="name" />
+                <div>
+                    <label htmlFor='name'>Descrição</label>
+                </div>
+                <div>
+                    <input type="text" id="description" />
+                </div>
 
-                <label htmlFor='name'>Descrição</label>
-                <input type="text" id="description" />
+                <div>
+                    <label htmlFor='name'>Valor</label>
+                </div>
+                <div>
+                    <input type="number" id="productValue" />
+                </div>
 
-                <label htmlFor='name'>Valor</label>
-                <input type="number" id="productValue" />
+                <div>
+                    <label htmlFor='name'>Formas de pagamento</label>
+                </div>
+                <div>
+                    <input type="text" id="paymentMethods" />
+                </div>
 
+                <button type="submit" value="Submit">
+                    <span>
+                        Salvar
+                    </span>
+                </button>
 
-                <label htmlFor='name'>Formas de pagamento</label>
-                <input type="text" id="paymentMethods" />
-
-                <button type="submit" value="Submit"/>
             </form>
+
         </div>
     )
 }
 
 export default Registration;
 
-// private Integer id;
-// private String name;
-// private Integer quantityStock;
-// private Integer costValue;
-// private Integer saleValue;
-// private Data dateRegister;
-// private String note;

@@ -1,7 +1,37 @@
+
+
 .form-container {
-    display: block;
-    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding: auto;
+    align-items: center;
     margin: auto;
-    border: 1px solid;
-    border-radius: 4px;
+}
+
+.title-form {
+    margin: 3em;
+    font-size: large;
+}
+
+.form-container input {
+    margin: 0.1em;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    border: none;
+    width: 400px;
+    padding: 10px;
+}
+
+.form-container label {
+    font-size: larger;
+}
+
+.form-container button{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: lightslategrey;
+    width: 300px;
 }
