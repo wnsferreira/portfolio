@@ -1,16 +1,7 @@
-package com.portfolio_wnsferreira.ecommerce.model;
+package com.portfolio_wnsferreira.ecommerce.view.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
-public class Product {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+public class ProductRequest {
+    
     private String name;
     private Integer quantityStock;
     private Integer costValue;
@@ -18,13 +9,6 @@ public class Product {
     // private Data dateRegister;
     private String note;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -74,4 +58,3 @@ public class Product {
         this.note = note;
     }
 }
-
