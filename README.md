@@ -1,14 +1,23 @@
 # wnsferreira PORTFOLIO
 
-- definition: <br/>
-  `the project`
+- definição: <br/>
+  `projeto`
 
-  - basic e-commerce system
+  - sistema básico de ecommerce
 
-## development
+## desenvolvimento
 
   - <b>frontend</b>:
-    - React js</b>
+    - React js</b> (Em desenvolvimento)
     
   - <b>backend</b>:
-    - Java API RestFull</b>
+    - Java API RestFull</b> (Parcialmente finalizado). 
+     
+## banco de dados
+
+  - PostgreSql
+    
+    
+ ## deploy
+ 
+ - deploy da API no Heroku: https://portfolio-ecommerce-java.herokuapp.com/api/products/
