@@ -22,7 +22,21 @@
  
  - deploy da API no Heroku: https://portfolio-ecommerce-java.herokuapp.com/api/products/
  
- <b>Teste no Postman</b>
+ ## API
  
- ![image](https://user-images.githubusercontent.com/64099512/182868465-8c1359a3-292f-40ea-a720-07b3262ec574.png)
+ - Consultar todos os produtos
+ https://portfolio-ecommerce-java.herokuapp.com/api/products/
+ 
+ - Consultar por id
+ https://portfolio-ecommerce-java.herokuapp.com/api/products/1 (informar o id)
+ 
+ - Adicionar
+ https://portfolio-ecommerce-java.herokuapp.com/api/products/
+ 
+ - Atualizar
+ https://portfolio-ecommerce-java.herokuapp.com/api/products/1 (informar id do item a ser atualizado)
+ 
+ - Deletar
+ https://portfolio-ecommerce-java.herokuapp.com/api/products/9 (informar id do item a ser deletado)
+ 
 
